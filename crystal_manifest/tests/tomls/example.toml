@@ -1,0 +1,38 @@
+# An example for Crystal package manager
+[package]
+name = "My_toolchains'_Crystalize"
+platform = "macos" # or macos, linux
+cpu = "arm64" # CPU structure
+
+[rustup] # Toolchain name
+version = "1.29.1" # version name MUST be speicificly version name.
+
+[python]
+version = "3.13.5"
+
+[git]
+version = "2.50.1"
+
+[node]
+version = "22.11.0"
+
+[npm]
+version = "10.9.0"
+
+[pnpm]
+version = "9.14.2"
+
+[yarn]
+version = "1.22.22"
+
+[llvm]
+version = "23.1.0"
+
+# for customized toolchain
+[customized_name_or_some_others]
+# need an absolute link
+url = "https://example.com"
+# try to download and run installer
+method = "installer"
+# method = "zip"
+# try to download `.zip` package from the link

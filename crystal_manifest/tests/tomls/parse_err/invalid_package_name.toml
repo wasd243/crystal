@@ -1,0 +1,7 @@
+[package]
+name = "\ninvalid"
+platform = "windows"
+cpu = "x86"
+
+[rustup]
+version = "1.29.1"

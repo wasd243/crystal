@@ -1,0 +1,10 @@
+[package]
+name = "invalid_url"
+platform = "windows"
+cpu = "x86_64"
+
+[rustup]
+version = "1.29.1"
+
+[defined]
+url = "broken url"

@@ -1,0 +1,12 @@
+[package]
+name = "something"
+platform = "windows"
+cpu = "x86_64"
+something_else = "?????"
+
+[rustup]
+version = "1.29.1"
+somehing = "fff"
+
+[defined]
+http = "also invalid"
